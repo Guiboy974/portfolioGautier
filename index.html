@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"> 
+    <title>Gautier-Portfolio</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Gautier Artiste-peintre</h1>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html"></a>Accueil</li>
+                <li><a href=""></a>L'artiste</li>
+                <li><a href=""></a>Contact</li>
+            </ul>
+        </div>
+        <img src="images/menu-burger.png" alt="menu burger" class="menu-burger">
+    </nav>
+    <header>
+       
+    </header>
+    <main>
+        <div id="slider">
+            <img src="images/IMG-chat2.jpg" alt="peinture de chat" id="slide">
+            <div id="precedent" onclick="ChangeSlide(-1)"><img src="images/flèche-gauche-24.png" alt="précédent"></div>
+            <div id="suivant" onclick="ChangeSlide(1)"><img src="images/flèche-droite-24.png" alt="suivant"></div>
+        </div>
+        <div class="apropos">
+            <h3>A propos</h3>
+            <div class="img-text">
+            <img src="images/IMG-20231120-WA0086.jpg" alt="photo de l'artiste">
+            <p class="text">Découvrez l'univers artistique captivant de Gautier, une talentueuse <span>artiste peintre</span> passionnée depuis ses 12 ans. <br>Son amour pour l'art et la culture transparaît dans ses créations variées, allant de <em>portraits</em> expressifs à des représentations vibrantes <em>d'animaux</em> et d'<em>icônes religieuses</em>. <br>Explorez sa diversité artistique sur son site web. <br>
+            <button><a href="#" class="btn-artiste">pour en savoir plus</a></button></p>
+    </div>
+        </div>
+        <div class="galerie">
+            <h3>Galerie</h3>
+            <div class="apercu-galerie">
+                <div class="card">
+                    <img src="images/IMG-charlie.jpg" alt="peinture de chien" style="width:100%">
+                    <div class="container">
+                    <p>Animaux</p>
+                    </div>
+                  </div>
+                  
+                  <div class="card">
+                    <img src="images/IMG-portrait1.jpg" alt="peinture de portrait" style="width:100%">
+                    <div class="container">
+                    <p>Portraits</p>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="images/IMG-icone1.jpg" alt="icône religieuse" style="width:100%">
+                    <div class="container">
+                    <p>Icônes</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>©copyright, tous droits réservés<br>icons by <a href="https://icones8.fr" target="_blank">Icon8</a></p>
+    </footer>
+    
+</body>
+
+<script src="slider.js"></script>
+
+</html>
