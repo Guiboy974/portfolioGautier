@@ -43,7 +43,7 @@ header {
     margin: 0 20px;
 }
 
-.navbar .nav-links ul li:hover {
+.navbar .nav-links ul li a:hover {
     color: rgba(0, 193, 167, 0.986);
     font-weight: 600;
 }
@@ -55,7 +55,9 @@ header {
     top: 80px;
     right: 45%;
 }
-
+a {
+    color: azure;
+}
 
 @media screen and (max-width: 800px) {
     .navbar h1 {
@@ -225,3 +227,16 @@ div.card:hover {
       width: 33%;
       transition: 0.3s;
   }
+
+/*  form */
+
+form {
+    margin: 50px 200px
+}
+label {
+    margin: 10px;
+    padding: 10px 0px;
+}
+input, textarea {
+    margin: 10px;
+}
